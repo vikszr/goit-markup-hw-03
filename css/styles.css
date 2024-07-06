@@ -223,6 +223,11 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+.people .list-name-job .list-paragraph,
+.people .list-name-job .list-name {
+  text-align: center;
+}
+
 .list-name-job {
   padding: 32px 0;
 }
