@@ -42,14 +42,15 @@ img {
 }
 
 .header-container {
-  padding: 24px 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .navigation {
