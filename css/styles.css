@@ -190,14 +190,11 @@ img {
 
 /* professional qualities */
 
-.main-container {
-  padding: 120px 0;
-}
-
 .container-list {
   align-items: center;
   display: flex;
   gap: 24px;
+  padding: 120px 0;
 }
 
 .list-item {
@@ -257,14 +254,18 @@ img {
 }
 
 .portfolio-container {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding: 72px 0 0 0;
+}
+
+.portfolio-title {
+  margin-bottom: 72px;
 }
 
 .portfolio-item {
