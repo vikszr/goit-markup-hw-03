@@ -271,7 +271,7 @@ img {
 .footer {
   background-color: #2e2f42;
   height: 312px;
-  padding: 100px 0 100px 156px;
+  padding: 100px 0;
 }
 
 .logo-footer {
@@ -282,6 +282,8 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .studio-footer {
@@ -300,5 +302,4 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
-  padding-top: 16px;
 }
