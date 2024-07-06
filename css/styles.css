@@ -31,10 +31,14 @@ ul {
   margin-bottom: 0;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 1158px;
-  padding: 0 15px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header-container {
@@ -61,6 +65,7 @@ ul {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .studio-header {
@@ -70,7 +75,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  margin-right: 76px;
 }
 
 .pages {
