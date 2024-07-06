@@ -33,14 +33,14 @@ ul {
 
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
 .header-container {
   padding: 24px 0;
   display: flex;
+  justify-content: space-between;
 }
 
 .nav {
@@ -50,6 +50,7 @@ ul {
 
 .navigation {
   display: flex;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo-header {
@@ -69,12 +70,12 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  margin-right: 76px;
 }
 
 .pages {
   display: flex;
   gap: 40px;
-  padding-right: 332px;
 }
 
 .pages-title {
@@ -83,6 +84,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .pages-title:hover,
@@ -219,6 +221,10 @@ ul {
   padding-bottom: 120px;
   display: flex;
   gap: 24px;
+}
+
+.image {
+  display: block;
 }
 
 .team-container {
