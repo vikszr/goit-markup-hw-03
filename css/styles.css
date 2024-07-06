@@ -205,6 +205,8 @@ img {
 
 .team {
   background-color: #f4f4fd;
+  /* padding: 120px 0; */
+  text-align: center;
 }
 
 .main-title {
@@ -214,6 +216,10 @@ img {
   color: #2e2f42;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.list-name-container {
+  padding: 120px 0;
 }
 
 .list-name {
