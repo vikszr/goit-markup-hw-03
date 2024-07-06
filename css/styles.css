@@ -268,6 +268,7 @@ img {
 
 .portfolio {
   padding: 120px 0 120px 0;
+  margin-bottom: 8px;
 }
 
 .portfolio-container {
@@ -279,6 +280,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin-bottom: 8px;
 }
 
 .portfolio-title {
@@ -287,6 +289,7 @@ img {
 }
 
 .portfolio-item {
+  background-color: #ffffff;
   width: calc((100% - 48px) / 3);
 }
 
