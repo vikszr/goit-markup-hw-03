@@ -70,10 +70,11 @@ img {
 .nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .logo-header {
+  display: block;
+  padding: 24px 0;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -91,15 +92,17 @@ img {
 .pages {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 
 .pages-title {
+  display: block;
+  padding: 24px 0;
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 
 .pages-title:hover,
@@ -114,13 +117,17 @@ img {
 .contacts-container {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 
 .email-phone {
+  display: block;
+  padding: 24px 0;
+  color: #434455;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .email-phone:hover,
@@ -259,6 +266,8 @@ img {
 }
 
 .logo-footer {
+  display: block;
+  padding: 24px 0;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
